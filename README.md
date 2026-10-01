@@ -1,6 +1,6 @@
 # WallRush Helper
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 [![JavaScript](https://img.shields.io/badge/JavaScript-local%20engine-f7df1e.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
@@ -20,7 +20,7 @@ Unofficial browser extension for [WallRush Game](https://wallrush.online/) that 
 
 I discovered WallRush through a reel and got hooked.
 
-What started as a small personal helper became a game-AI experiment. Beginning **September 19, 2026**, I used Python and Colab as a laboratory: test an idea, run games, inspect the numbers, then move what survived into JavaScript. Some ideas improved the engine. Others failed badly. Both were useful.
+What started as a small personal helper became a game-AI experiment. Beginning **September 19, 2026**, I used Python and Colab as a laboratory: test an idea, run games simulation, inspect the numbers, then move what survived into JavaScript. Some ideas improved the engine. Others failed badly. Both were useful.
 
 The current engine is **LeapFrog-1** — the first public step, not the final answer.
 
@@ -35,9 +35,9 @@ It is public because the interesting part is no longer just the extension. It is
 3. Enable **Developer mode**.
 4. Select **Load unpacked**.
 5. Choose the extracted folder containing `manifest.json`.
-6. Pin **WallRush Helper**.
+6. Pin **WallRush Helper** extension.
 
-> On Android, extension support and the installation UI vary by browser and build. Use a Chromium-based browser that supports user-installed Manifest V3 extensions. Personally, I use the [Cromite browser](https://github.com/uazo/cromite).
+> On Android, extension support and the installation UI vary by browser and build. Use a Chromium-based browser that supports user-installed Manifest V3 extensions. Personally, I use the [Cromite browser](https://github.com/uazo/cromite) For Chrome extensions.
 
 The ZIP is for distribution. **Load unpacked uses the extracted folder, not the ZIP itself.**
 
