@@ -24,6 +24,9 @@ Download the latest release:
 
 1. Extract the downloaded `.zip`.
 2. Open your browser's extensions page.
+
+(I recommend a browser that supports Chrome extensions, such as [Cromite](https://github.com/uazo/cromite) or [Kiwi Browser](https://github.com/kiwibrowser/src.next))
+
 3. Enable **Developer mode**.
 4. Select **Load unpacked**.
 5. Choose the extracted folder containing `manifest.json`.
