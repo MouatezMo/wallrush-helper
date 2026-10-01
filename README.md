@@ -11,42 +11,53 @@ Unofficial browser extension for [WallRush Game](https://wallrush.online/) that 
 - Local game engine — no remote AI service.
 - Pawn moves and wall placement analysis.
 - Easy, Normal, Hard and Hardcore levels.
-- Green move highlighting on the board.
+- Green move highlighting.
 - Optional Auto Play.
 - Diagnostic log export.
-- Duel, Race and Quad board support.
+- Duel, Race and Quad support.
+
+## The story
+
+I discovered WallRush through a reel and got hooked.
+
+What started as a small personal helper became a game-AI experiment. Beginning **September 19, 2026**, I used Python and Colab as a laboratory: test an idea, run games, inspect the numbers, then move what survived into JavaScript. Some ideas improved the engine. Others failed badly. Both were useful.
+
+The current engine is **LeapFrog-1** — the first public step, not the final answer.
+
+It is public because the interesting part is no longer just the extension. It is the search itself. Better evaluation, wall strategy, search, performance, and experiments can make it much stronger.
 
 ## Install
 
-Download the latest release:
+**[Download the latest release](../../releases/latest)**
 
-**[Download latest release](https://github.com/user-attachments/files/32927594/wallrush-helper-v3.0.zip)**
-
-1. Extract the downloaded `.zip`.
+1. Extract the `.zip`.
 2. Open your browser's extensions page.
-
-(I recommend a browser that supports Chrome extensions, such as [Cromite](https://github.com/uazo/cromite) or [Kiwi Browser](https://github.com/kiwibrowser/src.next))
-
 3. Enable **Developer mode**.
 4. Select **Load unpacked**.
 5. Choose the extracted folder containing `manifest.json`.
-6. Pin **WallRush Helper** for quick access.
+6. Pin **WallRush Helper**.
 
-The ZIP is for distribution; **Load unpacked uses the extracted folder**, not the ZIP itself.
+> On Android, extension support and the installation UI vary by browser and build. Use a Chromium-based browser that supports user-installed Manifest V3 extensions. Personally, I use the [Cromite browser](https://github.com/uazo/cromite).
+
+The ZIP is for distribution. **Load unpacked uses the extracted folder, not the ZIP itself.**
 
 ## Use
 
-Open [WallRush Game](https://wallrush.online/), open WallRush Helper, choose a level, and wait for the green suggestion on your turn.
+Open [WallRush Game](https://wallrush.online/), open WallRush Helper, choose an engine level, and wait for the green suggestion on your turn.
 
 ## Engine
 
-The engine uses alpha-beta search, iterative deepening, transposition tables, Zobrist hashing, move ordering and board evaluation.
+The local engine uses alpha-beta search, iterative deepening, transposition tables, Zobrist hashing, move ordering, and board evaluation.
 
-The current models are Duel 9×9, Race 9×13 and Quad 11×11.
+Current board models: **Duel 9×9, Race 9×13, Quad 11×11**.
 
 ## Contribute
 
-The main goal is stronger play. Improvements to search, evaluation, wall selection, performance, testing and multi-player analysis are welcome✨.
+The main goal is simple: **make the engine stronger**.
+
+Ideas, experiments, benchmarks, search improvements, evaluation changes, wall strategy, performance work, and bug fixes are welcome.
+
+Bring evidence when possible. A failed experiment is useful too.
 
 ## Credits
 
@@ -56,4 +67,4 @@ WallRush Helper is an independent project and is not affiliated with WallRush.
 
 ## License
 
-[MIT License]
+**MIT License**
