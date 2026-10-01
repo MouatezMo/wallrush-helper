@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "WallRush Helper",
+  "version": "3.0",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://wallrush.online/*"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "WallRush Helper"
+  },
+  "content_scripts": [{
+    "matches": ["https://wallrush.online/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }]
+}
