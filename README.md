@@ -1,6 +1,6 @@
 # WallRush Helper
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
 [![JavaScript](https://img.shields.io/badge/JavaScript-local%20engine-f7df1e.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
